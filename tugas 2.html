@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en"
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Website Sederhana Belajar</title>
+			<body bgcolor='cyan' text='black'>
+		<center><h1>Drama Jepang Gokusen</h1></center>
+<center><h3> G O K U S E N </h3></center>
+<body>
+	
+	<div class="container">
+			<h1>Let's Watch Together</h1>
+			<button onclick="toggleImage()">Click Here!</button>
+			<center><img id="myImage" src="https://i.pinimg.com/564x/29/f2/37/29f2371198ee0302d420cd266bbb118a.jpg" alt="Enjoy The Drama"></center>
+	</div>
+		
+	<script>
+		function toggleImage(){
+		var image = document.getElementById("myImage");
+		
+			//Toggle the image's display property
+			if(image.style.display==="none"){
+				image.style.display="block";
+			}else{
+				image.style.display="none";
+			}
+		}
+	</script>
+<BR> Nama 	: Aldinta Lindri Tripujiantari
+<BR> NIM 	: 22040274038
+<BR> Kelas 	: 2022B
+<center><h3>Enjoy The Drama</h3></center>
+	<style>
+		body {
+			font-family: Arial;
+			margin: 0;
+			padding: 0;
+			background-color: #ff7f50;
+		}
+			
+		.container {
+			width: 80&
+			margin: 0 auto;
+			padding: 20px;
+			text-align: center;
+		}
+			
+		#myImage {
+			max-width: 100%;
+			height: auto;
+			display: none; /*  Initialy hide the image */
+		}
+			
+		button {
+			padding: 10px 20px;
+			font-size: 16px;
+			cursor: pointer
+			background-color: #fa8072;
+		}
+	</style>
+</head>
+</body>
+</html>
